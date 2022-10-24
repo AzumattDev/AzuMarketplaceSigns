@@ -49,7 +49,7 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 ***
 > # Update Information (Latest listed first)
-> ### 2.0.0
+> ### 1.1.0
 > - Added live update of sign text when the config is changed.
 > - Update ServerSync and PieceManager code
 > ### 1.0.0
