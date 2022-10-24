@@ -1,7 +1,7 @@
 ﻿A mod, that adds signs.
 
 
-`Can be installed on both the client and the server in order to sync configs. Uses ServerSync.`
+`Can be installed on both the client (all clients) and the server in order to sync configs. Uses ServerSync.`
 
 ### Made at the request of `Suddhodana#8759` in the OdinPlus discord.
 
@@ -22,7 +22,7 @@
 
 #### Server
 
-`Must be installed on both the client and the server for syncing to work properly.`
+`Must be installed on both the client (all clients) and the server for syncing to work properly.`
 1. Locate your main folder manually and :
    a. Extract the contents of the archive into the BepInEx\plugins folder.
    b. Launch your game at least once to generate the config file needed if you haven't already done so.
