@@ -72,7 +72,7 @@ namespace AzuMarketplaceSigns
             blacksmith_sign.RequiredItems.Add("Coal", 2, true);
             SignHover? blacksmith_sign_text = blacksmith_sign.Prefab.AddComponent<SignHover>();
             blacksmith_sign_text.mText = _blacksmithSignHover.Value;
-            alchemy_sign_text.mSignName = "Blacksmith_sign";
+            blacksmith_sign_text.mSignName = "Blacksmith_sign";
 
             BuildPiece dock_sign = new("marketplacesigns", "Docking_sign");
 
@@ -166,9 +166,11 @@ namespace AzuMarketplaceSigns
                 AzuMarketplaceSignsLogger.LogError("Please check your config entries for spelling and format!");
             }
         }
-        
+
         void SignTextChanged(object o, EventArgs e)
         {
+            bool saveOnConfigSet = Config.SaveOnConfigSet;
+            Config.SaveOnConfigSet = false;
             foreach (SignHover signHover in Resources.FindObjectsOfTypeAll<SignHover>())
             {
                 signHover.mText = signHover.mSignName switch
@@ -182,6 +184,10 @@ namespace AzuMarketplaceSigns
                     _ => signHover.mText
                 };
             }
+
+            if (!saveOnConfigSet) return;
+            Config.SaveOnConfigSet = true;
+            Config.Save();
         }
 
 
