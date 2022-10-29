@@ -1,4 +1,4 @@
-﻿A mod, that adds signs.
+A mod, that adds signs.
 
 
 `Can be installed on both the client (all clients) and the server in order to sync configs. Uses ServerSync.`
@@ -49,6 +49,8 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 
 ***
 > # Update Information (Latest listed first)
+> ## 1.1.2
+> - Update ServerSync again.
 > ### 1.1.1
 > - Update ServerSync
 > ### 1.1.0
