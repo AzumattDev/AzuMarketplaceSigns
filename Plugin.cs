@@ -18,7 +18,7 @@ namespace AzuMarketplaceSigns
 
     {
         internal const string ModName = "AzuMarketplaceSigns";
-        internal const string ModVersion = "1.1.2";
+        internal const string ModVersion = "1.1.3";
         internal const string Author = "Azumatt";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";
@@ -53,7 +53,7 @@ namespace AzuMarketplaceSigns
 
             alchemy_sign.Name.English("Alchemy Sign");
             alchemy_sign.Description.English("Alchemy Sign");
-            alchemy_sign.Category.Add(BuildPieceCategory.Furniture);
+            alchemy_sign.Category.Set(BuildPieceCategory.Furniture);
             alchemy_sign.RequiredItems.Add("FineWood", 5, true);
             alchemy_sign.RequiredItems.Add("Iron", 5, true);
             alchemy_sign.RequiredItems.Add("Coal", 2, true);
@@ -66,7 +66,7 @@ namespace AzuMarketplaceSigns
 
             blacksmith_sign.Name.English("Blacksmith Sign");
             blacksmith_sign.Description.English("Blacksmith Sign");
-            blacksmith_sign.Category.Add(BuildPieceCategory.Furniture);
+            blacksmith_sign.Category.Set(BuildPieceCategory.Furniture);
             blacksmith_sign.RequiredItems.Add("FineWood", 5, true);
             blacksmith_sign.RequiredItems.Add("Iron", 5, true);
             blacksmith_sign.RequiredItems.Add("Coal", 2, true);
@@ -78,7 +78,7 @@ namespace AzuMarketplaceSigns
 
             dock_sign.Name.English("Docking Sign");
             dock_sign.Description.English("Docking Sign");
-            dock_sign.Category.Add(BuildPieceCategory.Furniture);
+            dock_sign.Category.Set(BuildPieceCategory.Furniture);
             dock_sign.RequiredItems.Add("FineWood", 5, true);
             dock_sign.RequiredItems.Add("Iron", 5, true);
             dock_sign.RequiredItems.Add("Coal", 2, true);
@@ -91,7 +91,7 @@ namespace AzuMarketplaceSigns
 
             generalstore_sign.Name.English("General Store Sign");
             generalstore_sign.Description.English("General Store Sign");
-            generalstore_sign.Category.Add(BuildPieceCategory.Furniture);
+            generalstore_sign.Category.Set(BuildPieceCategory.Furniture);
             generalstore_sign.RequiredItems.Add("FineWood", 5, true);
             generalstore_sign.RequiredItems.Add("Iron", 5, true);
             generalstore_sign.RequiredItems.Add("Coal", 2, true);
@@ -104,7 +104,7 @@ namespace AzuMarketplaceSigns
 
             tavern_sign.Name.English("Tavern Sign");
             tavern_sign.Description.English("Tavern Sign");
-            tavern_sign.Category.Add(BuildPieceCategory.Furniture);
+            tavern_sign.Category.Set(BuildPieceCategory.Furniture);
             tavern_sign.RequiredItems.Add("FineWood", 5, true);
             tavern_sign.RequiredItems.Add("Iron", 5, true);
             tavern_sign.RequiredItems.Add("Coal", 2, true);
@@ -116,7 +116,7 @@ namespace AzuMarketplaceSigns
 
             inn_sign.Name.English("Inn Sign");
             inn_sign.Description.English("Inn Sign");
-            inn_sign.Category.Add(BuildPieceCategory.Furniture);
+            inn_sign.Category.Set(BuildPieceCategory.Furniture);
             inn_sign.RequiredItems.Add("FineWood", 5, true);
             inn_sign.RequiredItems.Add("Iron", 5, true);
             inn_sign.RequiredItems.Add("Coal", 2, true);
