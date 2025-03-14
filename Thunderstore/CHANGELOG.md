@@ -1,5 +1,7 @@
 | `Version` | `Update Notes`                                                                                               |
 |-----------|--------------------------------------------------------------------------------------------------------------|
+| 1.1.5     | - Update ServerSync.                                                                                         |
+| 1.1.4     | - Bog Witch update.                                                                                          |
 | 1.1.3     | - Update for Valheim's latest version.                                                                       |
 | 1.1.2     | - Update ServerSync again.                                                                                   |
 | 1.1.1     | - Update ServerSync                                                                                          |

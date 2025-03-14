@@ -18,7 +18,7 @@ namespace AzuMarketplaceSigns
 
     {
         internal const string ModName = "AzuMarketplaceSigns";
-        internal const string ModVersion = "1.1.3";
+        internal const string ModVersion = "1.1.5";
         internal const string Author = "Azumatt";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";
